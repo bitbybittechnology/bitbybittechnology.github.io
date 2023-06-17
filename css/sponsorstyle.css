@@ -365,6 +365,7 @@ body{
     }
 
 /*SMALL SCREEN ADJUSTMENTS */ 
+
 .mobile-nav{
   display:none; 
 }
@@ -372,7 +373,6 @@ body{
 .hamburger{
   display:none; 
 }
-
 
 @media (max-width:767px){
 
