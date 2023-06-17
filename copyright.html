@@ -27,7 +27,19 @@
                 <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
+            <button class = "hamburger">
+              <div class = "bar"></div>
+            </button>
         </div>
+        </header>
+     <nav class ="mobile-nav">
+          <a href="about.html">ABOUT</a>
+          <a href="calendar.html">CALENDAR</a>
+          <a href="projects.html">PROJECTS</a>
+          <a href="sponsor.html">SPONSOR</a>
+          <a href="forum.html">FORUM</a>
+          <a href="contact.html">CONTACT</a>
+     </nav>
 
 
 <!-- ------------- Body     ------------>
@@ -74,5 +86,15 @@
 </div>
 </footer>
 
+<script type="text/javascript">
+    const menu_btn = document.querySelector('.hamburger'); 
+    const mobile_menu = document.querySelector('.mobile-nav'); 
+  
+    menu_btn.addEventListener('click', function () {
+      menu_btn.classList.toggle('is-active'); 
+      mobile_menu.classList.toggle('is-active'); 
+    }); 
+  </script>
+  
 </body>
 </html>
