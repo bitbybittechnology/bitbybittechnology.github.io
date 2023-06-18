@@ -161,7 +161,7 @@
    max-height: 100%;
  }
  
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 900px) {
    .sponsors-grid {
      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
    }
@@ -374,7 +374,7 @@ body{
   display:none; 
 }
 
-@media (max-width:767px){
+@media (max-width:900px){
 
   /* footer */
 .footer{
@@ -514,7 +514,7 @@ nav ul {
 
 }
 
-@media (max-width: 991px)
+@media (max-width: 950px)
 {
   .contact{
     padding: 50px; 
