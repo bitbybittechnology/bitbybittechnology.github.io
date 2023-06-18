@@ -317,7 +317,7 @@ nav ul {
   width: 100%; 
   min-height: 100vh; 
   display: block; 
-  z-index: 91; 
+  z-index: 991; 
   background-color: #C1FF72;
   padding-top: 120px;
   transition: 0.4s; 
@@ -361,4 +361,34 @@ nav ul {
   margin-right: 8px;
   color: #C1FF72;
 }    
+
+
+ .main {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .profile-card {
+    width: calc(50% - 50px);
+    margin: 10px;
+  }
+
+  .profile-card:hover {
+    height: auto;
+  }
+
+  .caption {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: .6s;
+  }
+
+  .profile-card:hover .caption {
+    transform: translateY(0);
+    opacity: 1;
+  }
+/* picture */ 
+.group-picture img {
+  width: 100%;
+}
 }

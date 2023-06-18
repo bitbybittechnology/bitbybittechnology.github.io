@@ -287,14 +287,53 @@
       margin-right: 8px;
       color: #C1FF72;
     }    
+
+    /* about-us section */ 
+    .about-section {
+      padding: 20px;
+    }
+    
+    .gallery {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .gallery img {
+      margin-left: 0;
+      width: 100%;
     }
 
+    .gallery img:nth-child(n+2) {
+      display: none;
+    }
+    
+    .description {
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+    
+    .description h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    
+    .description p {
+      font-size: 1em;
+      margin-bottom: 30px;
+    }
+    
+    .buttons {
+      flex-direction: column;
+    }
+    
+    .btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .btn:last-child {
+      margin-bottom: 0;
+    }
+    }
 
-
-   
-  
-    
-    
-    
-    
-    
