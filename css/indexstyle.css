@@ -179,7 +179,7 @@
     }
   } */
 
-  /*three icons - chapters, students, districts*/
+  /*three icons - chapters, students, districts
   .three-columns {
     display: flex;
     justify-content: center;
@@ -215,6 +215,103 @@
     line-height: 1.5;
     margin-bottom: 20px;
     color: white; 
+  } */
+
+  /* icons  
+  .three-columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 50px 0;
+  }
+  
+  .column {
+    text-align: center;
+    margin: 0 50px;
+    padding: 10px;
+  }
+  
+  .column img {
+    width: 100%;
+    max-width: 300px;
+    height: auto; /* Change height to auto for responsive resizing 
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .column h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .column p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Media Query for phone screens 
+  @media (max-width: 480px) {
+    .column {
+      margin: 0 20px; /* Reduce the margin for better spacing 
+    }
+  
+    .column img {
+      max-width: 100%; /* Adjust the max-width to fill the screen 
+    }
+  } 
+  */
+
+  /* icons trial two */ 
+  .three-columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 50px 0;
+  }
+  
+  .column {
+    text-align: center;
+    margin: 0 50px;
+    padding: 10px;
+  }
+  
+  .column img {
+    width: 100%;
+    max-width: 300px;
+    height: auto; /* Change height to auto for responsive resizing */
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .column h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .column p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Media Query for phone screens */
+  @media (max-width: 480px) {
+    .three-columns {
+      flex-direction: column; /* Stack columns vertically */
+    }
+  
+    .column {
+      margin: 20px 0; /* Add margin between stacked columns */
+    }
   }
   /*newsletter section*/
   .newsletter {
@@ -483,8 +580,10 @@
     .about {
       padding: 20px;
     }
-  }
-  @media (max-width:950px){
+  } 
+
+  /*
+  @media screen and (max-width:950px){
   .three-columns {
     display: flex;
     flex-direction: column;
@@ -503,4 +602,4 @@
   .column {
     flex-basis: 100%;
   }
-}
+} */
