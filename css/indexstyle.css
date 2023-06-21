@@ -494,4 +494,13 @@
   .three-columns .column {
     margin-bottom: 20px;
     text-align: center;
-  } }
+  } 
+
+  .container-about {
+    flex-direction: column;
+  }
+
+  .column {
+    flex-basis: 100%;
+  }
+}
